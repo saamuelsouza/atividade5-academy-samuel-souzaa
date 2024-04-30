@@ -13,9 +13,9 @@ beforeEach(function () {
   usuario.email = `${faker.string.alpha(10)}@${faker.string.alpha(10)}.com`;
 });
 
-/*afterEach(function () {
+afterEach(function () {
   cy.screenshot();
-});*/
+});
 
 describe("Cenários de teste da funcionalidade criar usuários", function () {
   describe("Cadastro de usuário", function () {
